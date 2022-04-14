@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./tablet.css" media="(min-width: 930px)">
     <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
     <title>negocio_digital|diseño_cursos</title>
@@ -17,30 +18,37 @@
 
         <section class="first-section">
             <div class="first-section-title">
-                <h1>¿Te haz preguntado como vender por internet?</h1>
+                <h1>Aprende... y crea tu proyecto digital !!!</h1>
                 <br>
-                <p class="first-section-title-subtitle">"Haz pensado que tu mismo puedes desarrollar una identidad 
-                    digital personal o de negocio"</p>
+                <p class="first-section-title-subtitle">"Necesitas crear una identidad digital o de tu negocio de forma practica y profesional"</p>
                 <br>
-                <p class="p-p-video">checa este video te va a interesar...</p>
+                <p class="p-p-video">en este video te describo todo</p>
                 <br>
             </div>
 
             <div class="first-section-video">
-                <video src="./video/prueba.mp4" controls ></video>
+                <video  class="video-file" src="./video/oswaldo_herrera.mp4" controls ></video>
                 
-                <h3 class="p-video">" Hay millones de personas en el mundo con acceso a internet. Todos
+                <!-- <h3 class="p-video">" Hay millones de personas en el mundo con acceso a internet. Todos
                     los días están en el punto de comprar, listos y necesitados de algo que podrías vender."
-                </h3> 
+                </h3>  -->
             </div>            
         </section>
 
+        
+
         <section class="register">
-            <h4 class="register-h4">Comleta tu registro y da el primer paso para crear un negocio que venda a escala , con un alto margen de beneficio y que tienda a crecer exponencialmente con el tiempo.</h4>
+            <h4 class="register-h4">Completa tu registro y da el primer paso para crear un negocio que venda a escala , con un alto margen de beneficio y que tienda a crecer exponencialmente con el tiempo.</h4>
+
+
         </section>
         
+        <!-- <div class="lottie"> <lottie-player src="https://assets10.lottiefiles.com/packages/lf20_uvksaftu.json"  background="transparent"  speed="0.5"  style="width: 300px; height: 300px;"  loop  autoplay></lottie-player>
+        </div> -->
+
         <section class="form">   
-                <h4>Contáctame:</h4>
+                <h4 class="contactme">Contáctame:</h4>
+               
                 <form action="correos.php" method="POST">
                     <input class="controls" type="text" name="nombre" id="nombres" placeholder="Nombre y Apellido" required>   
                     <input class="controls" type="phone" name="numero" id="numero" placeholder="Número" required>         
@@ -49,6 +57,13 @@
                     
                     <button class="botons" type="submit" > Enviar </button> 
                 </form>            
+        </section>
+
+        <section>
+            <div>
+                <h3></h3>
+            </div>
+            <div></div>
         </section>
 
         <section class="card-container">
@@ -77,11 +92,25 @@
                 <h4 class="zoom-h4">Soporte en todo momento para un aprendizaje continuo</h4>
             </div>
             <div class="zoom-text">
-                <p class="zoom-p">**El soporte del curso o proyecto se hace en vivo, asi se aprovecha mas y se despejan las dudas que tengas, la solución es nuestra prioridad.**</p>
+                <p class="zoom-p">**El soporte es en vivo, se aprovecha más y se aclaran dudas.**</p>                
+            </div>
+        </section>
 
-                
+        <section class="who">
+            <div class="who-div">
+                <h2 class="who-h2">Para quién es</h2>
+            </div>
+            <div>
+                <ul class="who-ul">
+                    <li>Cualquier persona que quiera emprender</li>
+                    <li>Persona o Negocio que quiera optimizar su proyecto</li>
+                    <li>Maestros , Conferencistas o toda gente que imparta cursos</li>
+                    
+                </ul>
             </div>
         </section>
     </main>
+
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 </body>
 </html>
